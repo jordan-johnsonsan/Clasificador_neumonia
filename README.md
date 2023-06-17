@@ -17,3 +17,11 @@ Usamos un modelo de redes neuronales convolucionales para diagnosticar la neumon
 5. Inferencia y diagnóstico: Una vez que el modelo está entrenado y validado, se puede utilizar para hacer predicciones en nuevas imágenes de rayos X de tórax. El modelo analiza las características de la imagen y proporciona una salida que indica la probabilidad de que el paciente tenga neumonía o no.
 
 Es importante destacar que, si bien los modelos de inteligencia artificial pueden ser herramientas útiles para el diagnóstico, siempre se recomienda que un profesional médico interprete los resultados y tome decisiones clínicas basadas en múltiples factores. La inteligencia artificial en este contexto actúa como un apoyo para el médico, brindando información adicional y ayudando a agilizar el proceso de diagnóstico.
+
+Descripción de los archivos adjuntos:
+
+Por problemas ajenos y con el afán de solucionar rápidamente se dividió en dos notebooks.
+* clasificador_de_img_neuomia contiene desde el EDA hasta las predicciones del modelo.
+* clasificador_de_img_neuomia_ajustado contiene el modelo con ajuste de hiperpárametros.
+* pneumonia_trained contiene el modelo entrenado.
+* main contiene el API con el modelo cargado.
